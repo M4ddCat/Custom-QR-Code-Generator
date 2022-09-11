@@ -1,0 +1,214 @@
+@media (max-width: 840px) {
+  h2 {
+    text-align:center !important;
+  }
+}
+
+@media (max-height: 807px){
+  .SettingsText {
+    font-size: 14pt !important;
+  }
+  .SettingsHeader {
+    font-size: 15pt !important;
+  }
+  h2 {
+    font-size: 20pt !important;
+  } 
+  .InputText {
+    font-size: 14pt !important;
+    height: 22px !important;
+    width: 300px !important;
+  }
+  td {
+    padding: 3pt !important;
+  }
+  .Generator {
+    margin-top: 5pt !important;
+  }
+  #QRCode {
+    margin-top: 75pt !important;
+  }
+}
+
+@media (max-width: 840px) {
+  #QRCode {
+    margin-top: 10px !important;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.Generator {
+  background-color: #c0faf5;
+  display: inline-block;
+  margin-top: 10pt;
+  box-shadow: 10pt 7pt #7ea8a5;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3e474d;
+  text-transform: uppercase;
+  font-size: 26pt;
+  text-align: left;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+  font-weight: bold;
+}
+
+.App-Content {
+  display: inline;
+}
+
+.SettingsQR {
+  display: inline-block;
+  margin-left: 3vmin;
+  margin-right: 3vmin;
+  margin-bottom: 3vmin;
+  height: auto;
+  vertical-align: top;
+}
+
+.material-icons {
+  padding: 2px;
+  background-color: white;
+  border-radius: 3px;
+  border: 0.1px solid;
+  border-color: #97adbb;
+}
+
+.QRField {
+  display: inline-block;
+  margin-left: 3vmin;
+  margin-bottom: 3vmin;
+  height: auto;
+  
+  width: 400px;
+  text-align: center;
+}
+
+table {
+  margin-top: 10px;
+}
+
+.imgUpload {
+  text-align: center;
+}
+
+.iconUpload {
+  cursor: pointer;
+}
+
+#Logo {
+  display: none;
+}
+
+#QRCode {
+  margin-top: 175px;
+  width: 300px !important;
+  height: 300px !important;
+  background-image: "https://avatars.githubusercontent.com/u/77954463?v=4";
+}
+
+.DownloadButton {
+  margin-top: 25px;
+  width: 150px;
+  height: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: "#3e474d";
+  font-size: 14pt;
+  background-color: white;
+  border: 0.1px solid;
+  border-color: #97adbb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.InputText {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16pt;
+  width: 325px;
+  height: 28px;
+}
+
+#react-qrcode-logo {
+  position: relative;
+}
+
+td {
+  height: 20px;
+  padding: 5pt;
+  text-align: start;
+  vertical-align: middle;
+}
+
+.SettingsText {
+  color: #3e474d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  vertical-align: middle;
+  
+}
+
+.SettingsHeader {
+  color: #3e474d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+.SettingsElement {
+  float: right;
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 28px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 3px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 2px;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
