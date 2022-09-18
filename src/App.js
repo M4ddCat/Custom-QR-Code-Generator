@@ -69,7 +69,7 @@ function App() {
                     type="checkbox"
                     onChange={event => cngDots(event.target.checked === false ? "squares" : "dots")}
                   />
-                  <span className="slider round"></span>
+                  <span className="sliderSwitch round"></span> 
                 </label>
               </td>
             </tr>
@@ -91,7 +91,7 @@ function App() {
                 <InputColor
                   initialValue="#000000"
                   onChange={cngFg}
-                  placement="left"
+                  placement="right"
                 />
               </td>
               
@@ -106,7 +106,7 @@ function App() {
                 <InputColor
                   initialValue="#fff"
                   onChange={cngBg}
-                  placement="left"
+                  placement="right"
                 />
               </td>
               
@@ -121,7 +121,7 @@ function App() {
                 <InputColor
                   initialValue="#000000"
                   onChange={cngEye}
-                  placement="left"
+                  placement="right"
                 />
               </td>
               
@@ -136,7 +136,7 @@ function App() {
                 <InputColor
                   initialValue="#000000"
                   onChange={cngFrame}
-                  placement="left"
+                  placement="right"
                 />
               </td>
               
@@ -180,7 +180,7 @@ function App() {
                     type="checkbox"
                     onChange={event => rmQRBL(event.target.checked)}
                   />
-                  <span className="slider round" ></span>
+                  <span className="sliderSwitch round" ></span>
                 </label>
               </td>
               
@@ -192,7 +192,10 @@ function App() {
                 </span>
               </td>
               <td className="SettingsElement">
+                <div className="range">
               <input type="range" min="1" max="100" defaultValue={20} onChange={event => cngLWidth(event.target.value * 0.01 * 1500)} />
+
+                </div>
 
               </td>
             </tr>
